@@ -14,7 +14,7 @@ body{
     height: 100vh;
 }
 .container{
-    width: 800px;
+    width:95%;
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 8px 5px rgba(0 0 0 / .5);
@@ -49,4 +49,9 @@ body{
             outline: 0;
           }
       }
+}
+@media (min-width:500px) {
+    .container{
+        max-width:  800px;
+    }
 }
